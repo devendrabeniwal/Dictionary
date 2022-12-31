@@ -1,0 +1,13 @@
+#creating a dictonary
+new_dict = {"sandeep":"Data_Entry_opreator",
+            "python":"programming_Language",
+            "fact_tech_guru_ji":"youtube_channel",
+            }
+try:
+    #taking inputs from the user
+    inp1 = input("word:")
+    lowerinput = inp1.lower()
+    print(new_dict[lowerinput])
+
+except:
+    print("not found")
